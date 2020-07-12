@@ -19,12 +19,15 @@ p{
 a:hover{
     text-decoration: none;
 }
-.extradiv  h2{
+.extradiv  h2 , servicediv h2{
     font-size: 0.9rem;
     line-height: 1.1;
     font-weight: bold;
     word-spacing: 4px;
     margin: 20px 0 15px 0;
+}
+i{
+    color: firebrick;
 }
 .header{
     width:100%
@@ -109,4 +112,34 @@ a:hover{
 .extradiv :hover{
     box-shadow: 0 0 20px 0 rgba(0,0,0,00.3);
     transform: translateY(-10px);
+}
+.serviceoffers{
+    background: yellowgreen;
+    padding: 50px;
+    margin-bottom: 50px;
+
+}
+.headings{
+    margin-bottom: 50px;
+}
+.headings h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.names h1{
+    color: crimson;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.serviceicons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.progress{
+    margin-bottom: 25px;
+    height:0.6rem;
+    background: sandybrown;
 }
