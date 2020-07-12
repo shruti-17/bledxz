@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+p{
+    
+    line-height: 1.6;
+    font-weight: 400;
+    color: rgb(3, 3, 3);
+}
+a:hover{
+    text-decoration: none;
+}
+.extradiv  h2{
+    font-size: 0.9rem;
+    line-height: 1.1;
+    font-weight: bold;
+    word-spacing: 4px;
+    margin: 20px 0 15px 0;
+}
+.header{
+   
+    background-image: url(../bag.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    clip-path: none;
+    position: relative;
+}
+.navbar:before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    opacity: 0.3;
+    z-index: -1;
+    background: linear-gradient(to right,#1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+
+}
+.nav-item a{
+    color: rgb(126, 22, 53);
+    font-weight: bolder;
+    text-shadow: rgb(199, 194, 188);
+}
+.header-section{
+    width: 100%;
+    text-align: center;
+    height: inherit;
+    color: brown;
+    position: relative;
+}
+.centre-div{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    -ms-transform: translate(-50% , -50%);
+    -webkit-transform: translate(-50% , -50%);
+}
+.header-buttons  a{
+    border: 1px solid slategray;
+    border-radius: 100px;
+    margin: 0px 5px;
+    padding: 12px 35px;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center ;
+}
+.header-buttons  a:hover{
+    color: navy;
+    background: powderblue;
+    text-decoration: lightcoral;
+    box-shadow: lightgreen;
+}
+.centre-div p{
+    color: sienna;
+    padding: 10px 0 20px 0;
+    text-decoration-style: solid;
+}
+.header-extradiv{
+    width: 100%;
+    margin: 100px 0;
+    height: auto;
+    text-align: center;
+
+}
+.extradiv{
+     background: white;
+     border: medium snow;
+     padding: 50px;
+     border-radius: 10px;
+     transition: 0.3s;
+
+}
+.extradiv :hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,00.3);
+    transform: translateY(-10px);
+}
