@@ -30,8 +30,8 @@ i{
     color: firebrick;
 }
 .header{
-    max-width:100%;
-    height:100vh;    
+    width: 100%;
+    height: 100vh;    
     background-image: url(https://github.com/shruti-17/bledxz/blob/master/bag.jpg?raw=true style="max-width:200%" );
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -70,7 +70,7 @@ i{
     left: 50%;
     transform: translate(-50% , -50%);
     -ms-transform: translate(-50% , -50%);
-    -webkit-transform: translate(-50% , -200%);
+    -webkit-transform: translate(-50% , -250%);
 }
 .header-buttons  a{
     border: 1px solid slategray;
