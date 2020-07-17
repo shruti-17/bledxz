@@ -332,17 +332,17 @@ i{
     }
 }
 @media only screen and (max-width:1024px) {
-	html {
+	.centre-div {
 		font-size: 9.375px;
 	}
 }
 @media only screen and (max-width:768px) {
-	html {
+	.centre-div {
 		font-size: 10px;
 	}
 }
 @media only screen and (max-width:400px) {
-	html {
+	.centre-div {
 		font-size: 9.375px;
 	}
 }
