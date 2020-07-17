@@ -4,6 +4,16 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+#comm{
+    font-size: x-large;
+    font-weight: 700;
+    z-index: 3;
+}
+.icon{
+    border-radius: 150px;
+    border-style: double;
+    width: 80px;
+}
 a{
     text-decoration: none;
 }
@@ -19,7 +29,7 @@ p{
 a:hover{
     text-decoration: none;
 }
-.extradiv  h2 , servicediv h2{
+.extradiv  h2 , .servicediv h2{
     font-size: 0.9rem;
     line-height: 1.1;
     font-weight: bold;
@@ -31,27 +41,30 @@ i{
 }
 .header{
     width: 100%;
-    height: 100vh;    
-    background-image: url(https://github.com/shruti-17/bledxz/blob/master/bag.jpg?raw=true style="max-width:200%" );
+    height: 100vh;
+    background-image: url(../bgg.gif);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 100%; 
     clip-path: none;
     position: relative;
 }
 .navbar:before{
     content: "";
-    position: absolute;
+    
     top: 0%;
     bottom: 0%;
     left: 0%;
     right: 0%;
     opacity: 0.3;
     z-index: -1;
-    background: linear-gradient(to right,#1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+    background: linear-gradient(to right,#1e5799 0%, #3ccdbb 0%, #16c9f6 );
 
 }
+.projectwork{
+    background:linear-gradient(90deg,  #1a0000,#333333, #808080);
+}
 .nav-item a{
-    color: rgb(126, 22, 53);
+    color:  #ffff80;
     font-weight: bolder;
     text-shadow: rgb(199, 194, 188);
 }
@@ -70,7 +83,10 @@ i{
     left: 50%;
     transform: translate(-50% , -50%);
     -ms-transform: translate(-50% , -50%);
-    -webkit-transform: translate(-50% , -250%);
+    -webkit-transform: translate(-50% , -50%);
+}
+.centre-div h1{
+    font-size: medium;
 }
 .header-buttons  a{
     border: 1px solid slategray;
@@ -95,13 +111,14 @@ i{
     text-decoration-style: solid;
 }
 .header-extradiv{
-    width: 100%;
+    width:auto;
     margin: 100px 0;
     height: auto;
     text-align: center;
+    background-color: lightcoral;
 
 }
-.extradiv{
+.extradiv {
      background: white;
      border: medium snow;
      padding: 50px;
@@ -113,12 +130,8 @@ i{
     box-shadow: 0 0 20px 0 rgba(0,0,0,00.3);
     transform: translateY(-10px);
 }
-.serviceoffers{
-    background: yellowgreen;
-    padding: 50px;
-    margin-bottom: 50px;
 
-}
+
 .headings{
     margin-bottom: 50px;
 }
@@ -146,45 +159,26 @@ i{
 .projectwork{
     margin:100px 0;
 }
-.projectwork h1{
+.projectwork h4{
     font-size: 2rem;
     text-align: center;
+    color: lawngreen;
 }
-.pricing{
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    padding: 50px;
+.monospace {
+    font-family: "Lucida Console", Courier, monospace;
+  }
+#demo{
+    font-size: x-large;
+    font-weight: 800;
 }
-.pricing:before{
-    content: "";
-    position: absolute;
-    top: 0%;
-    bottom: 0%;
-    left: 0%;
-    right: 0%;
-    
-    z-index: -1;
-    background: linear-gradient(160deg,  	 #ff9999 55%, 
 
-    #ffffe6 45%);
+.carousel-inner{
+    margin: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+}
 
-}
-.money{
-    font-size: 40px;
-    line-height: 1;
-    color: darkred;
-    border-radius:15px 45px;
-}
-.pricing h1{
-    text-decoration: solid;
-    text-align: center;
-    font-style: initial;
-    text-shadow: 2px 2px wheat;
-}
-.card{
-    transition: 0.4s ease;
-}
+
 .card-header{
     font-size: 1.6rem;
     font-weight: bold;
@@ -194,58 +188,29 @@ i{
 .card-body{
     padding: 30px 0px;
 }
-.card-body li{
-    margin:10px 0 ;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 1.6;
-    color: 	 #4d4d00;
-    background-color:  #ffffb3;
-}
-.card-footer{
-    background-color: #cce6ff !important;
-    padding: 30px 0px;
-}
-.card-footer  a{
-    border: 1px solid slategray;
-    border-radius: 100px;
-    margin: 0px 5px;
-    padding: 12px 35px;
-    outline: none;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.4;
-    text-align: center ;
-}
-.card-footer  a:hover{
-    color: navy;
-    background: powderblue;
-    text-decoration: lightcoral;
-    box-shadow: lightgreen;
-}
-.card:hover{
-    transform: translateY(-20px);
-    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
-}
-.card:hover .card-header, .card:hover .money{
-    color: rosybrown;
-}
-.card-second{
-    transform: translateY(-20px);
-    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+
+.myimage{
+    border-radius: 300px;
+    width: 70px;
 }
 .Co-founder{
     width: 100%;
     height: 100vh;
     padding: 80px 0;
+    transform: translateY(-30%);
 }
 .box{
     text-align: center;
     border: 1px solid rgba(0,0,0,0.2);
-    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3);
+    box-shadow: 5px 10px #1a1a1a;
     border-radius: 2px;
     transition: 0.3s ease;
+    transform: translateY(-10%);
 
+}
+.col-lg-5 col-md-5 col-15{
+    max-width: 25%;
+    background-color: lightpink;
 }
 .box :hover{
     background-color: #ff9999;
@@ -282,7 +247,7 @@ i{
 }
 .Contactus{
     width: 100%;
-    height: 100vh;
+    height: auto;
     padding: 80px 0;
     position: relative;
 
@@ -295,32 +260,23 @@ i{
     bottom: 0;
     z-index: -1;
     position: absolute;
-    background: linear-gradient(330deg, #ffffe6 45%, 
+    background: linear-gradient(90deg,	 #994d00 ,#ff8000,#ffbf80
 
-     #ff9999 55%);
+     );
      
 }
-.form-button button{
-    border: 1px solid 	 #cc6600;
-    border-radius: 100px;
-    margin: 0px 5px;
-    padding: 12px 35px;
-    outline: none;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.4;
-    text-align: center ;
-}
-form:hover .form-button button{
-    background: #e6b800;
-    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
-}
+
+
 .footersection{
     width: 100%;
     height: auto;
     padding: 70px 0 20px 0;
     background: thistle;
     position: relative;
+    position: absolute;
+    background: linear-gradient(330deg, #ffffe6 45%, 
+
+     #ff9999 55%);
 }
 .footersection li a{
     font-size: 0.9rem;
@@ -336,12 +292,19 @@ form:hover .form-button button{
     font-weight: 600;
     text-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
 }
+.footersection p{
+    text-align: left;
+}
 @media(max-width:768px)
 {
     .nav-item{
         text-align: center!important;
     }
-    .pricing ,.Co-founder,.Contactus{
+    #servicediv{
+        height:auto;
+        margin-top: 100px;
+    }
+    .Co-founder,.Contactus{
         height: auto;
         margin-top: 50px;
     }
@@ -349,4 +312,19 @@ form:hover .form-button button{
         transform: translateY(0px);
         margin: 30px 0;
     }
+}
+@media only screen and (max-width:1024px) {
+	html {
+		font-size: 9.375px;
+	}
+}
+@media only screen and (max-width:768px) {
+	html {
+		font-size: 10px;
+	}
+}
+@media only screen and (max-width:400px) {
+	html {
+		font-size: 9.375px;
+	}
 }
