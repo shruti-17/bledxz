@@ -314,20 +314,32 @@ i{
     }
 }
 @media only screen and (max-width:1024px) {
-	.centre-div h1 , centre-div p, .header-buttons{
+	.centre-div h1 , centre-div p{
 		font-size: 9.375px;
+		transform:translateY(-30px);
+	}
+	.header-buttons{
+		
 		transform:translateY(-30px);
 	}
 }
 @media only screen and (max-width:768px) {
-	.centre-div h1,.centre-div p ,.header-buttons {
+	.centre-div h1,.centre-div p  {
 		font-size: 10px;
+		transform:translateY(-30px);
+	}
+	.header-buttons{
+		
 		transform:translateY(-30px);
 	}
 }
 @media only screen and (max-width:400px) {
-	.centre-div h1, .centre-div p , .header-buttons {
+	.centre-div h1, .centre-div p  {
 		font-size: 9.375px;
+		transform:translateY(-30px);
+	}
+	.header-buttons{
+		
 		transform:translateY(-30px);
 	}
 }
